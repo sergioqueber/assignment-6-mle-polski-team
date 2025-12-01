@@ -77,6 +77,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+# Strip notebook outputs and metadata
+*.ipynb filter=nbstripout
 
 # IPython
 profile_default/
